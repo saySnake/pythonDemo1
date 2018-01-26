@@ -1,4 +1,5 @@
 #导入OS模块
+#当前只适用于Mac下的文件操作
 import os
 
 #修改工作目录到桌面Python文件夹中
@@ -12,6 +13,7 @@ print('当前所在路径：',os.getcwd())
 
 lists = os.listdir(os.getcwd())
 print('文件列表：',lists)
+
 
 #用format函数统计有多少个文件
 print('总计{p}个文件'.format(p = len(lists)))
